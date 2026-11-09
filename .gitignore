@@ -1,0 +1,33 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+.build-venv/
+.build-venv-*/
+
+# Build and distribution outputs
+build/
+dist/
+*.spec
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+
+# Runtime databases
+*.sqlite3
+*.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
